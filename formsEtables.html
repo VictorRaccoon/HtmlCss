@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        form {
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px #ccc;
+            display: flex;
+            flex-direction: column;
+            max-width: 50rem;
+        }
+    </style>
+</head>
+<body>
+    <form action="CadastrarPessoa.java" method="post">
+        <input type="text" name="name">
+        <input type="email" name="email">
+
+        <label>
+            <input type="radio" name="remember">
+            Remember me
+        </label>
+        <label>
+            <input type="radio" name="remember">
+            Don't remember me
+        </label>
+        
+
+        <input type="checkbox" name="k" id="">
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="" id="">
+
+        <fieldset>
+            <legend>Fruit juice size</legend>
+            <p>
+              <input type="radio" name="size" id="size_1" value="small" />
+              <label for="size_1">Small</label>
+            </p>
+            <p>
+              <input type="radio" name="size" id="size_2" value="medium" />
+              <label for="size_2">Medium</label>
+            </p>
+            <p>
+              <input type="radio" name="size" id="size_3" value="large" />
+              <label for="size_3">Large</label>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
