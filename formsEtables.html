@@ -10,6 +10,7 @@
             margin: 0;
             padding: 0;
             font-family: sans-serif;
+            display: block;
         }
         form {
             background: #fff;
@@ -19,6 +20,12 @@
             display: flex;
             flex-direction: column;
             max-width: 50rem;
+        }
+        .left {
+            margin-left: 70%;
+            width: 200px;
+            background-color: rgb(43, 176, 220);
+            text-align: end;
         }
     </style>
 </head>
@@ -63,8 +70,31 @@
             <legend>BreadCrumbs</legend> <!--adiciona uma legenda ao fildset-->
             p
         </fieldset>
+        <fieldset>
+            <legend>legenda</legend>
+        </fieldset>
 
         <textarea name="" id="" cols="30" rows="10" placeholder="eeee" style="resize: none;"></textarea>
     </form>
+
+    <div class="left">
+        <table border="1">
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+            <tr>
+                <td>Ted</td>
+                <td>22</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Ralf</td>
+                <td>26</td>
+                <td>Designer</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
