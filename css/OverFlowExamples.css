@@ -28,7 +28,7 @@ body {
   }
   
   .inherit {
-    overflow: inherit;
+    overflow: inherit; /* herda o overflow do elemento pai (nesta ocasião é o body)*/
   }
   
   img {
