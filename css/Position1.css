@@ -11,7 +11,7 @@ body {
     height: 300px;
     background-color: green;
     position: static; /*valor default, deixa o elemento preso em um lugar da tela*/
-    top: 20px;
+    top: 20px; /*cola no topo e dps se distancia em 20px do topo*/
 }
   
 .filho--static {
@@ -25,8 +25,8 @@ body {
     height: 300px;
     background-color: green;
     position: fixed; /*deixa o elemento fixo em um lugar da tela*/
-    right: 5%;
-    bottom: 0%;
+    right: 5%; /*cola na direita e dps se distancia em 5% da direita*/
+    bottom: 0%; /*cola no bottom e dps se distancia em 0% do bottom*/
 }
   
 .filho--fixed {
@@ -63,7 +63,7 @@ body {
     background-color: blue;
     position: relative; /*o elemento filho recebe modificações em relação ao pai*/
     top: 50px;
-    left: 50px;
+    left: 50px; /*cola na esquerda e dps se distancia em 50px da esquerda*/
 }
 
 .pai--absolute--onPosition {
