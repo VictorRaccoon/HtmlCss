@@ -22,6 +22,18 @@ animation-iteration-count:	x (x = contagem de vezes)
 animation-fill-mode:	forwards, backwards, both, none
 animation-direction:	normal, alternate
 animation-play-state:	paused, running, running
+
+
+
+one animation 
+  animation: bounce .3s ease-in-out 1s infinite;
+  animation: rotate-out 1s steps(3, end);
+  animation: .3s ease 1s reverse open-up;
+
+multiple animations 
+  animation: shake .3s alternate,
+  jump 1s cubic-bezier(.17,.67,.85,.06) alternate;
+                
 */
 
 .element {
